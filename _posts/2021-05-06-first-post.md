@@ -6,7 +6,9 @@ categories:
  - Blog
 tags:
  - Blog
+ - github
 last_modified_at: 2021-05-06
+toc: true
 ---
 
 사실 약 일 년 전, 깃헙 블로그 만들기를 시도했으나 
