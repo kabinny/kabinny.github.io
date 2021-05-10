@@ -6,6 +6,43 @@
    Typography
    ========================================================================== */
 
+// custom font
+@font-face {
+  font-family: "SpoqaHanSansNeo"; 
+  font-style: normal;
+  font-weight: 100;
+  src: url(/assets/fonts/SpoqaHanSansNeo-Thin.woff2) format("woff2"), 
+      url(/assets/fonts/SpoqaHanSansNeo-Thin.woff) format("woff");
+}
+@font-face {
+  font-family: "SpoqaHanSansNeo"; 
+  font-style: normal;
+  font-weight: 300;
+  src: url(/assets/fonts/SpoqaHanSansNeo-Light.woff2) format("woff2"), 
+      url(/assets/fonts/SpoqaHanSansNeo-Light.woff) format("woff");
+}
+@font-face {
+  font-family: "SpoqaHanSansNeo"; 
+  font-style: normal;
+  font-weight: 400;
+  src: url(/assets/fonts/SpoqaHanSansNeo-Regular.woff2) format("woff2"), 
+      url(/assets/fonts/SpoqaHanSansNeo-Regular.woff) format("woff");
+}
+@font-face {
+  font-family: "SpoqaHanSansNeo"; 
+  font-style: normal;
+  font-weight: 500;
+  src: url(/assets/fonts/SpoqaHanSansNeo-Medium.woff2) format("woff2"), 
+      url(/assets/fonts/SpoqaHanSansNeo-Medium.woff) format("woff");
+}
+@font-face {
+  font-family: "SpoqaHanSansNeo"; 
+  font-style: normal;
+  font-weight: 700;
+  src: url(/assets/fonts/SpoqaHanSansNeo-Bold.woff2) format("woff2"), 
+      url(/assets/fonts/SpoqaHanSansNeo-Bold.woff) format("woff");
+}
+
 $doc-font-size: 16 !default;
 
 /* paragraph indention */
@@ -14,7 +51,7 @@ $indent-var: 1.3em !default;
 
 /* system typefaces */
 $serif: Georgia, Times, serif !default;
-$sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
+$sans-serif: "SpoqaHanSansNeo", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
   "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
 $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
 
