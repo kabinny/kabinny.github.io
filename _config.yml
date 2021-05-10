@@ -15,11 +15,11 @@
 minimal_mistakes_skin    : "mint" # "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "en"
 title                    : "Awesome Blog Creator"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "kabinny"
+name                     : ""
 description              : "개발자가 되고 싶은 누군가의 기록용 블로그"
 url                      : "https://kabinny.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -52,8 +52,8 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
+search                   : true # true, false (default)
+search_full_content      : true # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
@@ -102,7 +102,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:kabinny@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -275,9 +275,20 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: false
       show_date: true
       comments: true
-      share: true
+      share: false
       related: true
+      toc_sticky: true
+      sidebar:
+        nav: "navCategory"
+  
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      sidebar:
+        nav: "navCategory"

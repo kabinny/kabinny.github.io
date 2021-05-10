@@ -14,3 +14,10 @@ main:
 #     url: /collection-archive/
 #   - title: "Sitemap"
 #     url: /sitemap/
+
+navCategory:
+  - title: Study!
+    children:
+      - title: "Blog"
+        url: /categories/#Blog/
+
