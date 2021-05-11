@@ -282,8 +282,7 @@ defaults:
       share: false
       related: true
       toc_sticky: true
-      sidebar:
-        nav: "navCategory"
+      sidebar_main: true
   
   # _pages
   - scope:
