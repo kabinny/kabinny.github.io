@@ -4,8 +4,8 @@ main:
 #     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "Categories"
     url: /categories/
-  - title: "Tags"
-    url: /tags/
+#   - title: "Tags"
+#     url: /tags/
   - title: "About"
     url: /about/
 #   - title: "Sample Posts"
@@ -14,10 +14,3 @@ main:
 #     url: /collection-archive/
 #   - title: "Sitemap"
 #     url: /sitemap/
-
-navCategory:
-  - title: Study!
-    children:
-      - title: "Blog"
-        url: /categories/#Blog/
-
