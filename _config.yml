@@ -289,5 +289,4 @@ defaults:
       path: ""
       type: pages
     values:
-      sidebar:
-        nav: "navCategory"
+      sidebar_main: true
