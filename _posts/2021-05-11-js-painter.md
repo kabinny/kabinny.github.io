@@ -20,7 +20,8 @@ javascript로 그림판을 만든다는 게 신기해서 강의도 무료고 수
 [내가 만든 그림판 링크](https://kabinny.github.io/js_painter/)
 
 ## 컬러 선택 기능 추가하기
-1.  index.html에  컬러 팔레트 옆에 ` <input type="color">`를 추가한다. 
+### 1. `<input type="color">`
+index.html에  컬러 팔레트 옆에 `<input type="color">`를 추가한다. 
 ```html
 <div class="controls__colors" id="jsColors">
       <input type="color" id="inputColor">
@@ -29,7 +30,8 @@ javascript로 그림판을 만든다는 게 신기해서 강의도 무료고 수
  ```
 
 
-2. 추가한 `input`에 스타일을 주었다. 기본 스타일을 모두 지우고 새로 하려고 했지만 input color의 기본 구조?가 복잡해 보여서 가로 세로 사이즈 정도만 설정했다. 
+### 2. `input` css
+추가한 `input`에 스타일을 주었다. 기본 스타일을 모두 지우고 새로 하려고 했지만 input color의 기본 구조?가 복잡해 보여서 가로 세로 사이즈 정도만 설정했다. 
 ```css
 .controls #inputColor {
   width: 50px;
@@ -37,7 +39,9 @@ javascript로 그림판을 만든다는 게 신기해서 강의도 무료고 수
   cursor: pointer;
 }
 ```
-3. app.js에서 `input`을 불러 오고, 클릭했을 때, `handleInputColor`함수를 발동시킨다. 
+
+### 3. `input`을 불러 오고 함수 걸기
+app.js에서 `input`을 불러 오고, 클릭했을 때, `handleInputColor`함수를 발동시킨다. 
 ```javascript
 const inputColor = document.getElementById("inputColor");
 
@@ -45,7 +49,9 @@ if (inputColor) {
   inputColor.addEventListener("input", handleInputColor);
 }
 ```
-4. `handleInputColor`작성. 	`input`의 입력된 색상값, 즉 `value`를 가져와서 stroke와 fill 색상에 넣어 준다.
+
+### 4. `handleInputColor`작성
+`input`의 입력된 색상값, 즉 `value`를 가져와서 stroke와 fill 색상에 넣어 준다.
 ```javascript
 function handleInputColor(event) {
   const color = event.target.value;
@@ -53,7 +59,9 @@ function handleInputColor(event) {
   ctx.fillStyle = color;
 }
 ```
-5. 기존 팔레트를 클릭했을 때, `#inputColor`의 색도 같이 바뀌면 더 사용감이 좋을 것 같아서 그 부분도 수정했다. 솔직히 자세한 것은 모르지만 `input`에 입력할 수 있는 값은 hex이고 `event.target.style.backgroundColor`로 가져온 값은 rgb인 것 같다. 그래서 rgb값을 hex로 바꿀  함수를 찾아와서 추가했다.   
+
+### 5. `#inputColor` 색 변경
+기존 팔레트를 클릭했을 때, `#inputColor`의 색도 같이 바뀌면 더 사용감이 좋을 것 같아서 그 부분도 수정했다. 솔직히 자세한 것은 모르지만 `input`에 입력할 수 있는 값은 hex이고 `event.target.style.backgroundColor`로 가져온 값은 rgb인 것 같다. 그래서 rgb값을 hex로 바꿀  함수를 찾아와서 추가했다.   
 rgb값을 넘기면, 잘라서 각각 16진수 값으로 변환하고 hex code형식을 리턴한다. 
 ```javascript
 function rgbToHex(colorval) {
@@ -66,7 +74,9 @@ function rgbToHex(colorval) {
   return '#' + parts.join('');
 }
 ```
-6. 이제 `handleColorClick`함수를 수정한다. 이미 가져왔던 클릭한 컬러의 배경색 값을 위에 적은 `rgbToHex`함수로 hex값으로 변환한다. 그 값을 stroke, fill, inputColor에 넣는다. 
+
+### 6. `handleColorClick`함수 수정
+이미 가져왔던 클릭한 컬러의 배경색 값을 위에 적은 `rgbToHex`함수로 hex값으로 변환한다. 그 값을 stroke, fill, inputColor에 넣는다. 
 ```javascript
 function handleColorClick(event) {
   let color = event.target.style.backgroundColor;
