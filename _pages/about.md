@@ -2,6 +2,8 @@
 title: "이 블로그에 대해서"
 permalink: /about/
 layout: single
+author_profile: true
+sidebar_main: true
 ---
 
 ## kabinny.github.io 블로그

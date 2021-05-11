@@ -8,6 +8,7 @@ tags:
  - vanillaJS
 last_modified_at: 2021-05-11
 toc: true
+sidebar_main: true
 ---
 
 [바닐라 JS로 그림판 만들기 강의](https://nomadcoders.co/javascript-for-beginners-2) 
