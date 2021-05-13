@@ -27,23 +27,29 @@ toc: true
 ## 블로그 만들면서 참고한 튜토리얼
 
 ### 블로그 기본 구축 하우투
-https://devinlife.com/howto/
+[https://devinlife.com/howto/](https://devinlife.com/howto/)
+
+
 아는 게 별로 없어도 따라하기 쉽게 설명이 되어 있다. 개인적으로 다른 사람에게 보여지는 목적은 없어서 검색 엔진 등록과 애드센스 부분은 건너뛰었다. 애널리틱스는 등록함. 
 
 ### 댓글 기능
-https://ansohxxn.github.io/blog/utterances/
+[https://ansohxxn.github.io/blog/utterances/](https://ansohxxn.github.io/blog/utterances/)
+
 다른 튜토리얼에도  disqus사용이 많아서 잘 몰랐는데 utterances라는 좋은 댓글 시스템이 있었다. 깔끔해서 마음에 들었다. 
 
 ### 이미지 호스트
-https://namhoon.kim/2020/07/02/topic/001/index.html
+[https://namhoon.kim/2020/07/02/topic/001/index.html](https://namhoon.kim/2020/07/02/topic/001/index.html)
+
 깃허브 이슈를 이용한 방법은 관리가 애매할 거 같아서 구글 드라이브 사용하기로 마음먹었다. 포스트 내부 이미지를 전부  asset 폴더에 넣는 것도 용량적으로 불안하다. 
 
 ### 파비콘
-https://hongjuzzang.github.io/howto/favicon/
+[https://hongjuzzang.github.io/howto/favicon/](https://hongjuzzang.github.io/howto/favicon/)
+
 파비콘도 달고 싶어서 참고할 예정. 
 
 ### 사이드바에 카테고리 표시하기
-https://ansohxxn.github.io/blog/category/#site-nav
+[https://ansohxxn.github.io/blog/category/#site-nav](https://ansohxxn.github.io/blog/category/#site-nav)
+
 원하는 대로 보이려면 살짝 귀찮은 작업을 해야 하지만, 나중에 더 수정하면 마음에 들 것이다. 
 
 --- 
