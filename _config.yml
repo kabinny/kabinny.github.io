@@ -15,11 +15,11 @@
 minimal_mistakes_skin    : "mint" # "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en"
+locale                   : "en-US"
 title                    : "Awesome Blog Creator"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : ""
+name                     : "kabinny"
 description              : "개발자가 되고 싶은 누군가의 기록용 블로그"
 url                      : "https://kabinny.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -97,7 +97,7 @@ author:
   name             : "kabinny"
   avatar           : "/assets/images/profile1.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "공부중"
-  location         : "Somewhere"
+  location         : # "Somewhere"
   email            :
   links:
     - label: "Email"
@@ -292,3 +292,4 @@ defaults:
     values:
       author_profile: false
       sidebar_main: true
+      related: false
