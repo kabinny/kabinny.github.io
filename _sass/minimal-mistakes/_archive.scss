@@ -462,3 +462,17 @@
 		display: inline-block;
 	}
 }
+
+
+// 각 카테고리의 메인 페이지 main page of each categories
+// archive-single2.html
+.category-main-list {
+  a {text-decoration: none;}
+  .post-title {font-size: 1.2em;}
+  .page__taxonomy a {
+    font-size: 1rem; 
+    border: 1px solid; 
+    border-radius: 8px;
+    padding: 0 0.3rem;
+  }
+}
