@@ -7,7 +7,7 @@ categories:
 tags:
  - css
  - scss
-# last_modified_at: 2021
+last_modified_at: 2021-05-17
 toc: true
 ---
 
@@ -33,3 +33,25 @@ SCSS는 css와 비슷하지만(sass의 훌륭한 기능을 쓸 수 있는 css같
 
 Sass는 간결하고 깔끔하고 작성할 수 있다.  
 SCSS는 한 줄 작성이 가능하고 css코드 통합이 쉽다. 
+
+## SCSS 컴파일 방법
+### SassMeister (온라인)
+<a href="https://www.sassmeister.com/">SassMeister</a>
+
+온라인에서 바로 해볼 수 있는 사이트. 간단하게 해보기는 좋다.
+
+### for 개발자
+이름 | 링크
+---|---
+node-sass | <a href="https://github.com/sass/node-sass">https://github.com/sass/node-sass</a>
+gulp-sass | <a href="https://github.com/dlmanning/gulp-sass">https://github.com/dlmanning/gulp-sass</a>
+sass-loader | <a href="https://www.npmjs.com/package/sass-loader">https://www.npmjs.com/package/sass-loader</a>
+
+
+
+등등 다양한 방법이 있다고 한다. 
+
+### for 개알못
+gui 환경에서 사용 가능한 컴파일러도 있지만, 써보니 뭔가 더 불편했다.
+
+지금은 사용하고 있는 에디터인 vscode의 익스텐션 중에 <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass">Live Sass Compiler</a>를 사용중이다. 
