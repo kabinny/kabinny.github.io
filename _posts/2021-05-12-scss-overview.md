@@ -41,11 +41,11 @@ SCSS는 한 줄 작성이 가능하고 css코드 통합이 쉽다.
 온라인에서 바로 해볼 수 있는 사이트. 간단하게 해보기는 좋다.
 
 ### for 개발자
-이름 | 링크
----|---
-node-sass | <a href="https://github.com/sass/node-sass">https://github.com/sass/node-sass</a>
-gulp-sass | <a href="https://github.com/dlmanning/gulp-sass">https://github.com/dlmanning/gulp-sass</a>
-sass-loader | <a href="https://www.npmjs.com/package/sass-loader">https://www.npmjs.com/package/sass-loader</a>
+| 이름 | 링크 |
+| --- | --- |
+| node-sass | <a href="https://github.com/sass/node-sass">https://github.com/sass/node-sass</a> |
+| gulp-sass | <a href="https://github.com/dlmanning/gulp-sass">https://github.com/dlmanning/gulp-sass</a> |
+| sass-loader | <a href="https://www.npmjs.com/package/sass-loader">https://www.npmjs.com/package/sass-loader</a> |
 
 
 
