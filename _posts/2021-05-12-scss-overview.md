@@ -47,7 +47,7 @@ SCSS는 한 줄 작성이 가능하고 css코드 통합이 쉽다.
 | -------------   | -------------------------------------------------------- |
 | node-sass       | <a href="https://github.com/sass/node-sass">https://github.com/sass/node-sass</a> |
 | gulp-sass       | <a href="https://github.com/dlmanning/gulp-sass">https://github.com/dlmanning/gulp-sass</a> | 
-| sass-loade      | <a href="https://www.npmjs.com/package/sass-loader">https://www.npmjs.com/package/sass-loader</a> | 
+| sass-loader      | <a href="https://www.npmjs.com/package/sass-loader">https://www.npmjs.com/package/sass-loader</a> | 
 
 
 
