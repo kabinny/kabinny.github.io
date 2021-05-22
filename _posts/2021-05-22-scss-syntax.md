@@ -1,5 +1,5 @@
 ---
-title: "2. SCSS 문법"
+title: "2) SCSS 문법"
 excerpt: "SCSS 주석, 데이터 종류, 중첩"
 
 categories:
