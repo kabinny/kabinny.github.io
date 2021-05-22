@@ -1,5 +1,5 @@
 ---
-title: "1. SCSS 개요"
+title: "1) SCSS 개요"
 excerpt: "CSS Preprocessor, SCSS 개요"
 
 categories:
