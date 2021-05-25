@@ -96,7 +96,7 @@ analytics:
 author:
   name             : "kabinny"
   avatar           : "/assets/images/profile1.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "공부중"
+  bio              : "개발자 아님, 공부중, 잘 모름"
   location         : # "Somewhere"
   email            :
   links:
