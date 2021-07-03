@@ -54,7 +54,4 @@ SCSS는 한 줄 작성이 가능하고 css코드 통합이 쉽다.
 
 등등 다양한 방법이 있다고 한다. 
 
-### for 개알못
-gui 환경에서 사용 가능한 컴파일러도 있지만, 써보니 뭔가 더 불편했다.
-
-지금은 사용하고 있는 에디터인 vscode의 익스텐션 중에 <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass">Live Sass Compiler</a>를 사용중이다. 
+ 
