@@ -27,6 +27,9 @@
                     {% if category[0] == "Javascript" %}
                         <li><a href="/categories/javascript" class="">Javascript ({{category[1].size}})</a></li>
                     {% endif %}
+                    {% if category[0] == "Vue" %}
+                        <li><a href="/categories/vue" class="">VUE ({{category[1].size}})</a></li>
+                    {% endif %}
                 {% endfor %}
             </ul>
         <span class="nav__sub-title">etc</span>
