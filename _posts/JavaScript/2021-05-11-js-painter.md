@@ -3,7 +3,7 @@ title: "바닐라 JS로 그림판 만들기 + 컬러 인풋"
 excerpt: "canvas와 javascript로 만드는 간단한 그림판"
 
 categories:
- - Javascript
+ - JavaScript
 tags:
  - vanillaJS
 last_modified_at: 2021-05-11
