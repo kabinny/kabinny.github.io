@@ -9,6 +9,7 @@ tags:
  - scss
 # last_modified_at: 2021-05-17
 toc: true
+published: false
 ---
 
 sass보다는 scss 문법 위주로 정리합니다.

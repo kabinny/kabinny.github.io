@@ -9,6 +9,7 @@ tags:
  - scss
 last_modified_at: 2021-05-17
 toc: true
+published: false
 ---
 
 css는 배우기 쉽다. 웹브라우저에서 바로 확인하면서 적용해 볼 수 있어서 재밌기도 하다. 
