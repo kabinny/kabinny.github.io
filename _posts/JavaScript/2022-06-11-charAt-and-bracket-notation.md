@@ -52,7 +52,7 @@ sidebar_main: true
 1. What is the use of charAt() method?
 2. How String.charAt() is implemented in JavaScript?
 
-### 'character'의 약어'char' 발음
+### 'character'의 약어 'char' 발음
 
 [여기](https://english.stackexchange.com/questions/60154/how-to-pronounce-the-programmers-abbreviation-char)를 참고하면 뭐가 확실히 답이라고 할 수 없는 듯하다. [챠ㄹ]정도로 발음하면 무난하겠다. 
 'charset(character set)'을 [케어셋]이 아닌 [챠ㄹ셋]으로 발음하는 걸 떠올려야겠다. 
