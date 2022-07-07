@@ -27,6 +27,9 @@
                     {% if category[0] == "JavaScript" %}
                         <li><a href="/categories/javascript" class="">JavaScript ({{category[1].size}})</a></li>
                     {% endif %}
+                    {% if category[0] == "TypeScript" %}
+                        <li><a href="/categories/typescript" class="">TypeScript ({{category[1].size}})</a></li>
+                    {% endif %}
                     {% if category[0] == "Vue" %}
                         <li><a href="/categories/vue" class="">VUE ({{category[1].size}})</a></li>
                     {% endif %}
