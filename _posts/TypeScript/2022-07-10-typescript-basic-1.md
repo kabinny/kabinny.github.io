@@ -1,5 +1,5 @@
 ---
-title: "TypeScript 기본 정리 1"
+title: "TypeScript 기본 타입"
 excerpt: "TypeScript란, TypeScript의 기본 타입"
 
 categories:
