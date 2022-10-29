@@ -3,7 +3,7 @@ title: "Heroku에 json-server 호스팅하기"
 excerpt: "투두리스트라도 자랑하고 싶어"
 
 categories:
- - Backend
+ - etc
 tags:
  - ['json-server', 'Heroku']
 # last_modified_at: 2021-05-11

@@ -36,9 +36,7 @@
                     {% if category[0] == "React" %}
                         <li><a href="/categories/react" class="">React ({{category[1].size}})</a></li>
                     {% endif %}
-                    {% if category[0] == "Backend" %}
-                        <li><a href="/categories/backend" class="">Backend ({{category[1].size}})</a></li>
-                    {% endif %}
+                 
                 {% endfor %}
             </ul>
         <span class="nav__sub-title">etc</span>
