@@ -4,6 +4,7 @@ excerpt: "공식 문서를 잘 읽자."
 
 categories:
  - JavaScript
+ - React
 tags:
  - stompjs
  - react
@@ -289,5 +290,5 @@ export default ChatRoom
 
 ## 참고 레퍼런스
 
-[https://dev-gorany.tistory.com/m/325?category=901854#js](https://dev-gorany.tistory.com/m/325?category=901854#js)
+[https://dev-gorany.tistory.com/m/325?category=901854#js](https://dev-gorany.tistory.com/m/325?category=901854#js)  
 [https://stomp-js.github.io/guide/stompjs/using-stompjs-v5.html](https://stomp-js.github.io/guide/stompjs/using-stompjs-v5.html)
