@@ -1,6 +1,6 @@
 ---
 title: "next.js에서 동적 OG image 생성하기 - @vercel/og"
-excerpt: "라이브러리 없이 구현"
+excerpt: "vercel + next.js + typescript"
 
 categories:
  - React
