@@ -149,6 +149,7 @@ const onSubmit = async (event: React.SyntheticEvent) => {
 
 **TodoItem.tsx**
 ```typescript
+{% raw %}
 function TodoItem({ id, todo, isCompleted, userId, getTodoList }: Props) {
   const [isModifying, setIsModifying] = useState(false)
   const inputModifyRef = useRef<HTMLInputElement>(null)
@@ -226,6 +227,7 @@ function TodoItem({ id, todo, isCompleted, userId, getTodoList }: Props) {
     </li>
   )
 }
+{% endraw %}
 ```
 
 
