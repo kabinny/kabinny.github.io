@@ -8,39 +8,55 @@
 
 // custom font
 @font-face {
-  font-family: "SpoqaHanSansNeo"; 
-  font-style: normal;
-  font-weight: 100;
-  src: url(/assets/fonts/SpoqaHanSansNeo-Thin.woff2) format("woff2"), 
-      url(/assets/fonts/SpoqaHanSansNeo-Thin.woff) format("woff");
+	font-family: 'SUIT';
+	font-weight: 100;
+	src: local('SUIT Thin'), url('/assets/fonts/SUIT-Thin.woff2') format('woff2');
 }
 @font-face {
-  font-family: "SpoqaHanSansNeo"; 
-  font-style: normal;
-  font-weight: 300;
-  src: url(/assets/fonts/SpoqaHanSansNeo-Light.woff2) format("woff2"), 
-      url(/assets/fonts/SpoqaHanSansNeo-Light.woff) format("woff");
+	font-family: 'SUIT';
+	font-weight: 200;
+	src: local('SUIT ExtraLight'), url('/assets/fonts/SUIT-ExtraLight.woff2') format('woff2');
 }
 @font-face {
-  font-family: "SpoqaHanSansNeo"; 
-  font-style: normal;
-  font-weight: 400;
-  src: url(/assets/fonts/SpoqaHanSansNeo-Regular.woff2) format("woff2"), 
-      url(/assets/fonts/SpoqaHanSansNeo-Regular.woff) format("woff");
+	font-family: 'SUIT';
+	font-weight: 300;
+	src: local('SUIT Light'), url('/assets/fonts/SUIT-Light.woff2') format('woff2');
 }
 @font-face {
-  font-family: "SpoqaHanSansNeo"; 
-  font-style: normal;
-  font-weight: 500;
-  src: url(/assets/fonts/SpoqaHanSansNeo-Medium.woff2) format("woff2"), 
-      url(/assets/fonts/SpoqaHanSansNeo-Medium.woff) format("woff");
+	font-family: 'SUIT';
+	font-weight: 400;
+	src: local('SUIT Regular'), url('/assets/fonts/SUIT-Regular.woff2') format('woff2');
 }
 @font-face {
-  font-family: "SpoqaHanSansNeo"; 
-  font-style: normal;
-  font-weight: 700;
-  src: url(/assets/fonts/SpoqaHanSansNeo-Bold.woff2) format("woff2"), 
-      url(/assets/fonts/SpoqaHanSansNeo-Bold.woff) format("woff");
+	font-family: 'SUIT';
+	font-weight: 500;
+	src: local('SUIT Medium'), url('/assets/fonts/SUIT-Medium.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'SUIT';
+	font-weight: 600;
+	src: local('SUIT SemiBold'), url('/assets/fonts/SUIT-SemiBold.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'SUIT';
+	font-weight: 700;
+	src: local('SUIT Bold'), url('/assets/fonts/SUIT-Bold.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'SUIT';
+	font-weight: 800;
+	src: local('SUIT ExtraBold'), url('/assets/fonts/SUIT-ExtraBold.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'SUIT';
+	font-weight: 900;
+	src: local('SUIT Heavy'), url('/assets/fonts/SUIT-Heavy.woff2') format('woff2');
+}
+// D2Coding
+@font-face {
+	font-family: 'D2Coding';
+	font-weight: 400;
+	src: local('D2Coding'), url('/assets/fonts/D2Coding-Ver1.3.2-20180524.woff2') format('woff2');
 }
 
 $doc-font-size: 16 !default;
@@ -51,9 +67,9 @@ $indent-var: 1.3em !default;
 
 /* system typefaces */
 $serif: Georgia, Times, serif !default;
-$sans-serif: "SpoqaHanSansNeo", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
+$sans-serif: "SUIT", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
   "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
-$monospace: Monaco, Consolas, "Lucida Console", monospace !default;
+$monospace: "D2Coding", Monaco, Consolas, "Lucida Console", monospace !default;
 
 /* sans serif typefaces */
 $sans-serif-narrow: $sans-serif !default;
