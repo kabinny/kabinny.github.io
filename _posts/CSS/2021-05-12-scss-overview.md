@@ -3,9 +3,8 @@ title: "1) SCSS 개요"
 excerpt: "CSS Preprocessor, SCSS 개요"
 
 categories:
- - SCSS
+ - CSS
 tags:
- - css
  - scss
 last_modified_at: 2021-05-17
 toc: true

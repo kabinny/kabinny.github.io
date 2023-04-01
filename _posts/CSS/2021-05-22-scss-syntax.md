@@ -3,9 +3,8 @@ title: "2) SCSS 문법"
 excerpt: "SCSS 주석, 데이터 종류, 중첩"
 
 categories:
- - SCSS
+ - CSS
 tags:
- - css
  - scss
 # last_modified_at: 2021-05-17
 toc: true
