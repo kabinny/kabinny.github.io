@@ -51,7 +51,7 @@ reCaptcha:
   secret:
 atom_feed:
   path: # blank (default) uses feed.xml
-  hide: true # true, false (default)
+  hide: false # true, false (default)
 search: true # true, false (default)
 search_full_content: true # true, false (default)
 search_provider: # lunr (default), algolia, google
@@ -129,10 +129,14 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
+<<<<<<< HEAD
       # url: 
+=======
+      url: "https://github.com/kabinny"
+>>>>>>> 0e5da602 (Show atom_feed)
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
-      # url:
+      # url: 
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       # url:
