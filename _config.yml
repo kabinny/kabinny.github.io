@@ -129,11 +129,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-<<<<<<< HEAD
-      # url: 
-=======
       url: "https://github.com/kabinny"
->>>>>>> 0e5da602 (Show atom_feed)
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url: 
