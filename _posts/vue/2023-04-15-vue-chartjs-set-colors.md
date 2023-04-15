@@ -1,6 +1,6 @@
 ---
 title: "chart.js 컬러 선택 기능 만들기"
-excerpt: "codepen Vue SFC + Vue2 + Char.js4"
+excerpt: "codepen Vue SFC + Vue2 + Chart.js4"
 
 categories:
  - Vue
