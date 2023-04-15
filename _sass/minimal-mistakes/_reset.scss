@@ -36,12 +36,14 @@ body { margin: 0; }
 
 ::-moz-selection {
   color: #fff;
-  background: #000;
+  // background: #000;
+  background-color: rgba($primary-color, 0.8);
 }
 
 ::selection {
   color: #fff;
-  background: #000;
+  // background: #000;
+  background-color: rgba($primary-color, 0.8);
 }
 
 /* Display HTML5 elements in IE6-9 and FF3 */
