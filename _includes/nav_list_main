@@ -39,6 +39,9 @@
                     {% if category[0] == "CSS" %}
                         <li><a href="/categories/css" class="">CSS ({{category[1].size}})</a></li>
                     {% endif %}
+                    {% if category[0] == "FrontEnd" %}
+                        <li><a href="/categories/frontend" class="">FrontEnd ({{category[1].size}})</a></li>
+                    {% endif %}
                     {% if category[0] == "etc" %}
                         <li><a href="/categories/etc" class="">etc ({{category[1].size}})</a></li>
                     {% endif %}
