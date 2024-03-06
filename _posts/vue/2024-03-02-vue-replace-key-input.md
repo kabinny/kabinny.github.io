@@ -1,6 +1,6 @@
 ---
 title: "Vue에서 키보드 입력값 대체하기"
-excerpt: "뷰 2와 4분의 3 어딘가"
+excerpt: "dispatchEvent 사용해보기"
 
 categories:
   - Vue
